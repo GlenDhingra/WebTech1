@@ -1,0 +1,254 @@
+	
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+#container1{
+	background-image: url('image3.png');
+	width: 800px;
+	height: 80vh;
+	background-size: 800px;
+	background-attachment: fixed;
+	background-position-y: -80px;
+
+}
+/*Navigation Bar*/
+#nav-bar{
+	width: 800px;	
+	position: fixed;
+	display: flex;
+	background-color: #FFFFFF;
+	
+}
+#nav-left{
+	color: #AF9453;
+	padding: 10px;
+	margin-left: 50px;
+	font-size: 10px;
+}
+
+#nav-right{
+	display: flex;
+	margin-left: 325px;
+	font-size: 10px;
+}
+.nav-comp{
+	padding: 10px;
+}
+.nav-comp a {
+	text-decoration: none;
+	color: black;
+}
+ul {
+  list-style-type: none;
+}
+ul > li {
+    display: inline-block;
+}
+ul li a:hover {
+ color:#AF9453;
+}
+
+#home-tab{
+	color: #AF9453;
+}
+/*Creating Unforttable Memories*/
+#c1-text{
+	padding-top: 200px; 
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-family: 'Benne';
+	letter-spacing: 10px;
+}
+#c1-text span{
+	display: block;
+}
+
+#container2{
+	margin-left:40px;
+	margin-right: 40px;
+	background-color: #FFFFFF;
+}
+
+#container2-1{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	height: 50vh;
+	
+}
+#c2-img1{
+	background-image: url('flower.png');
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+#c2-img1-1{
+	margin-top: 7vh;
+	font-size: 20px;
+	font-family: 'Helvetica Neue', sans-serif;
+	letter-spacing: 8px;
+}
+#c2-img1-2{
+	margin-top: 100px;
+	letter-spacing: 1px;	
+}
+#c2-img1-3{
+	margin-top: 10px;
+}
+#c2-img1-4{
+	margin-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: thin;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+}
+#c2-img2{
+	width: 400px;
+	margin-left: auto;
+}
+#container2-2{
+	margin-top: 80px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family:"Garmond";
+
+}
+.c2-text{
+	margin-top: 1vh;
+	letter-spacing: 2px;
+}
+#c2-text1{
+	font-size: 50px;
+}
+#c2-text3{
+	display: flex;
+	gap: 165px;
+	margin-top: 1vh;
+	
+}
+
+#c2-text5{
+	margin-top: 5vh;
+	color: #AF9453;
+	font-size: 12px;
+}
+
+#container3{
+	margin-top: 150px;
+	margin-left:40px;
+	margin-right: 40px;
+	background-image: url('image2.png');
+	height: 65vh;
+	background-size: 800px;
+	background-attachment: fixed;
+	display: flex;
+	background-position-y:50px;
+}
+#container3-1{
+	display: flex;
+	flex-direction: row;
+	height: 45vh;
+	margin-left: 400px;
+	margin-top: 10vh;
+
+}
+#c3-img{
+	background-image: url('flower.png');
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#c3-img-1{
+	margin-top: 5vh;
+	letter-spacing: 8px;
+	font-size: 20px;
+  	font-family: 'Helvetica Neue', sans-serif;
+}
+#c3-img-2{
+	margin-top: 90px;
+	letter-spacing: 4px;
+}
+#c3-img-3{
+	margin-top: 15px;
+	letter-spacing: 4px;
+}
+#c3-img-4{
+	margin-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: thin;
+	color: #FFFFFF;
+	font-size: 12px;
+
+}
+#container4{
+	margin-top: 60px;
+	margin-left:40px;
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #AF9453;
+	display: flex;
+	color: #FFFFFF;
+}
+#box{
+	display: flex;
+	margin-left: 70px;
+	gap: 15px;
+	font-size: 10px;
+}
+#box p{
+	margin: 0px;
+}
+#c4-box2{
+	margin-left: 100px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#c4-button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: thin;
+	color: #FFFFFF;
+	font-size: 10px;
+}
+.vl {
+  border-left: 1px solid #FFFFFF;
+  height: 40px;
+}
+.arrow{
+	color: #AF9453;	
+}
+
+.p2-text{
+	font-weight: bold;
+	font-size: 30px;
+}
